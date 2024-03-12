@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "LinkedIn Contact Scrapper 1st",
+    "version": "1.0",
+    "permissions": ["activeTab", "scripting", "storage", "identity", "commands"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "host_permissions": ["https://script.google.com/macros/s/", "https://www.linkedin.com/"],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "commands": {
+        "perform_action": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+L",
+                "mac": "Command+Shift+L"
+            },
+            "description": "Perform Action"
+        }
+    }
+}

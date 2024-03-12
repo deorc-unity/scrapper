@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "OHHHHHHHHHHHHHHHH",
+    "version": "1.0",
+    "permissions": ["activeTab", "scripting", "storage", "identity", "commands", "tabs"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "host_permissions": ["https://script.google.com/macros/s/"],
+    "action": {},
+    "commands": {
+        "_execute_action": {
+          "suggested_key": {
+            "default": "Ctrl+Shift+L",
+            "mac": "Command+Shift+L"
+          },
+          "description": "Perfomrs function"
+        }
+      }
+}

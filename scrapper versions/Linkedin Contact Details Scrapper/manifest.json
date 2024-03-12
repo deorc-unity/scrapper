@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "Linkedin Contact Details Scrapper",
+    "version": "1.0",
+    "permissions": ["activeTab", "scripting", "storage", "identity", "commands", "tabs"],
+    "background": {
+        "service_worker": "main.js"
+    },
+    "host_permissions": ["https://script.google.com/macros/s/", "https://www.linkedin.com/in/"]
+}
