@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "LinkedIn Reload Feature Scrapper",
+    "version": "1.0",
+    "permissions": ["activeTab", "scripting", "storage", "identity","notifications"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "host_permissions": ["https://script.google.com/macros/s/"],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}

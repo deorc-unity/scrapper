@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "Scrape My Contact Info",
+    "version": "1.0",
+    "permissions": ["activeTab", "scripting", "storage", "identity", "commands", "tabs", "notifications"],
+    "background": {
+        "service_worker": "linkedin.js"
+    },
+    "host_permissions": ["https://script.google.com/macros/s/", "https://www.linkedin.com/in/"],
+    "description": "This is a scrapper that scrapes the contact info that is visible to the user, provided LinkedIn has't hidden the details"
+}
